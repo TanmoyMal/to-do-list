@@ -55,6 +55,7 @@ button {
     cursor: pointer;
     border-radius: 40px;
 }
+
 button:hover {
     background: #bb200f;
     color: white;
@@ -100,3 +101,57 @@ ul li span:hover {
     background: #c5c5c5;
     border-radius: 50%;
 }
+
+
+/* ...existing code... */
+
+@media (max-width: 480px) {
+    .todo-app {
+        padding: 30px 20px;
+        margin: 80px 2px 10px;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .row {
+        align-items: center;
+        padding-left: 5px;
+        gap: 10px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 8px;
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    button {
+        width: 30%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 8px 4px 8px 35px;
+    }
+
+    ul li span {
+        width: 26px;
+        height: 26px;
+        font-size: 16px;
+        top: 4px;
+        line-height: 26px;
+    }
+
+    .todo-app h2 {
+        font-size: 18px;
+    }
+
+    .todo-app h2 img {
+        width: 18px;
+        margin-left: 6px;
+    }
+}
+/* ...existing code... */
